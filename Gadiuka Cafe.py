@@ -64,7 +64,9 @@ elif cui == 'secret':
   --___------
   ---------___--""")
   print(colorama.Back.RED)
+  print(colorama.Fore.LIGHTYELLOW_EX)
   print('Welcome to the Underworld')
+  print(colorama.Fore.BLACK)
   print(colorama.Back.LIGHTBLACK_EX)
   print('paper(print takeX2 to take)')
   print(colorama.Back.LIGHTWHITE_EX)
