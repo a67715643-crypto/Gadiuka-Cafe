@@ -30,35 +30,35 @@ if cui == 'coffee':
 print('Balance: ' + str(balance))
 
 if balance < coffee:
- print('Sorry, but you do not have enough money!')
+ print('admin: Sorry, but you do not have enough money!')
 
 elif cui == 'tea':
  balance = balance - tea
 print('Balance: ' + str(balance))
 
 if balance < tea:
- print('Sorry, but you do not have enough money!')
+ print('admin: Sorry, but you do not have enough money!')
 
 elif cui == 'cookies':
  balance = balance - cookies
 print('Balance: ' + str(balance))
 
 if balance < cookies:
- print('Sorry, but you do not have enough money!')
+ print('admin: Sorry, but you do not have enough money!')
 
 elif cui == 'pie':
  balance = balance - pie
 print('Balance: ' + str(balance))
 
 if balance < pie:
- print('Sorry, but you do not have enough money!')
+ print('admin: Sorry, but you do not have enough money!')
 
 elif cui == 'secret':
   balance = balance - secret
   print('Balance: ' + str(balance))
 
-  print('Oh! You want to buy a python? Wait a minute...')
-  print('HAHAHAHA! You made a very big mistake... This is a TRAP!')
+  print('admin: Oh! You want to buy a python? Wait a minute...')
+  print('admin: HAHAHAHA! You made a very big mistake... This is a TRAP!')
   print(colorama.Back.LIGHTBLACK_EX)
   print("""------___------
   --___------
@@ -66,25 +66,26 @@ elif cui == 'secret':
   print(colorama.Back.RED)
   print('Welcome to the Underworld')
   print(colorama.Back.LIGHTBLACK_EX)
-  print('paper(print take to take)')
+  print('paper(print takeX2 to take)')
   print(colorama.Back.LIGHTWHITE_EX)
 
-  input()
+  act = input()
 
   if input() == 'take':
       print('paper: python from Gadiuka Cafe is in the cage, but you if you want to save him you need to find the cage')
   print(colorama.Back.LIGHTBLACK_EX)
-  print('instruction(print take to take)')
+  print('instruction(print takeX2 to take)')
   print(colorama.Back.LIGHTWHITE_EX)
+
   input()
 
   if input() == 'take':
       print("""instruction:
-      print take to take;
-      print jump to jump;
-      print go to go;
-      print open to open;
-      print fight to fight.""")
+      print takeX2 to take;
+      print jumpX2 to jump;
+      print goX2 to go;
+      print openX2 to open;
+      print fightX2 to fight.""")
   print(colorama.Back.LIGHTBLACK_EX)
   print('cave')
   print('jump?')
@@ -114,7 +115,7 @@ elif cui == 'secret':
   input()
 
   if input() == 'fight':
-      print('What? What do you do? Why? Why you choose to fight? Ok. You won. Here is your key...')
+      print('admin: What? What do you do? Why? Why you choose to fight? Ok. You won. Here is your key...')
       print('You won!')
       print(colorama.Back.LIGHTYELLOW_EX)
       print('key')
@@ -161,7 +162,7 @@ elif cui == 'secret':
 
   else:
    if balance < secret:
-    print('Sorry, but you do not have enough money!')
+    print('admin: Sorry, but you do not have enough money!')
 
   print(colorama.Fore.BLACK)
   print(colorama.Back.LIGHTWHITE_EX)
