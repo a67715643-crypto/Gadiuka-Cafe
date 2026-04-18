@@ -154,7 +154,6 @@ elif cui == 'secret':
       input()
 
       if input() == 'go':
-          print(colorama.Fore.BLACK)
           print(colorama.Back.GREEN)
 
           print('🐍Gadiuka Cafe🐍')
@@ -166,7 +165,6 @@ elif cui == 'secret':
    if balance < secret:
     print('admin: Sorry, but you do not have enough money!')
 
-  print(colorama.Fore.BLACK)
   print(colorama.Back.LIGHTWHITE_EX)
   print("""Thanks for playing!🐍
   Made on Python
